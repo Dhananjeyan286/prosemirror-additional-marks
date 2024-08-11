@@ -1,6 +1,6 @@
 {
   "name": "prosemirror-additional-marks",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A prosemirror marks package to add additional marks into the editor",
   "main": "./dist/index.es.js",
   "type": "module",
