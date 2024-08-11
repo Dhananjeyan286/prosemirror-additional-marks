@@ -1,4 +1,4 @@
-# prosemirror-paragraph
+# prosemirror-additional-marks
 
 This package defines a set of additional marks for prosemirror which can be used when creating your own editor.
 
