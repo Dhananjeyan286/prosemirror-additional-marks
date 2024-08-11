@@ -3,7 +3,7 @@ import { EditorView } from "prosemirror-view"
 import { Schema } from "prosemirror-model"
 import { schema } from "prosemirror-schema-basic"
 import { addListNodes } from "prosemirror-schema-list"
-import { addMarks, addShortcuts, addCommands, getPlugins, sampleConfig } from "../../dist/index.es";
+import { addMarks, addShortcuts, addCommands, getPlugins, sampleConfig } from "prosemirror-additional-marks";
 import { history } from "prosemirror-history";
 import { baseKeymap } from "prosemirror-commands";
 import { dropCursor } from "prosemirror-dropcursor";
