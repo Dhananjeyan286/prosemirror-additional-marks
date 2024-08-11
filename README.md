@@ -13,6 +13,11 @@ npm i prosemirror-additional-marks
 
 ## Usage
 
+**Note : Add the below entry in your package.json file for now to avoid loading multiple prosemirror-model packages, will fix this in future versions
+"resolutions": {
+    "prosemirror-model": "1.22.3"
+}**
+
 ```js
 
 import { EditorState, Plugin } from "prosemirror-state"
@@ -135,11 +140,6 @@ preProcessConfig(config) // returns the config after pre processing
 getSubConfig(name, config) // returns the specific config for the given mark name
 
 ```
-
-Note : Add the below entry in your package.json file for now to avoid loading multiple prosemirror-model packages, will fix this in future versions
-"resolutions": {
-    "prosemirror-model": "1.22.3"
-}
 
 ## Authors
 
