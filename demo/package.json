@@ -1,0 +1,41 @@
+{
+  "name": "prosemirror-additional-marks-demo",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A demo implementation of prosemirror-additional-marks package along with prosemirror-example-setup-package",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c ./merge.config.js"
+  },
+  "keywords": [
+    "prosemirror",
+    "mark",
+    "marks",
+    "prosemirror-additional-marks",
+    "mark",
+    "prosemirror-additional-marks-demo",
+    "marks demo"
+  ],
+  "author": "Dhananjeyan RM",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "26.0.1",
+    "@rollup/plugin-node-resolve": "15.2.3"
+  },
+  "dependencies": {
+    "prosemirror-commands": "1.6.0",
+    "prosemirror-dropcursor": "1.8.1",
+    "prosemirror-example-setup": "1.2.2",
+    "prosemirror-gapcursor": "1.3.2",
+    "prosemirror-history": "1.4.1",
+    "prosemirror-keymap": "1.2.2",
+    "prosemirror-model": "1.22.3",
+    "prosemirror-schema-basic": "1.2.3",
+    "prosemirror-schema-list": "1.4.1",
+    "prosemirror-state": "1.4.3",
+    "prosemirror-view": "1.33.9"
+  },
+  "resolutions": {
+    "prosemirror-model": "1.22.3"
+  }
+}
